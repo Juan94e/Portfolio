@@ -1,0 +1,26 @@
+.manualInfo-container {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    color: black;
+    margin-bottom: 100vh;
+}
+
+.manualInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+    .manualInfo-container {
+      height: 200px;
+      width: 100%;
+    }
+  
+    .manualInfo > h1 {
+      text-align: center;
+      font-size: 25px;
+    }
+  }
