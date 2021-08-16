@@ -8,7 +8,7 @@ export const About = () => {
         <div id="about" className="manualAbout-container">  
 
             <div className="manualAbout-desc">
-                <h3>Let me tell you something about me</h3>
+                <h3 className="prub1" >Let me tell you something about me</h3>
                 <p>Electronic Engineer with an emphasis on embedded systems. Hands-on Engineer. Willing to learn as well as to utilize my knowledge and expertise for optimal Engineer-ing results. </p>
             </div>
 
