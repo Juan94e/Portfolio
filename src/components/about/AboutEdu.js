@@ -3,9 +3,10 @@ import '../../styles/AboutEdu.css';
 
 export const AboutEdu = () => {
     return (
-        <div className="contenedor-principal">
+        <section className="contenedor-principal">
             <div className="conten1" >
                 <h1>Educacion</h1>
+                <br/>
                 <p>Electronic Engineer with an emphasis on embedded systems. Hands-on Engineer. Willing to learn as well as to utilize my knowledge and expertise for optimal Engineer-ing results. </p>
             </div>
             <div className="conten2" >
@@ -14,6 +15,6 @@ export const AboutEdu = () => {
             <div className="conten3" >
                 <h1>Educacion</h1>
             </div>
-        </div>
+        </section>
     )
 }
