@@ -8,22 +8,38 @@
 }
 
 .contenedor-principal > div {
-    width: 25%;
+    width: 30%;
     height: 50%;
     padding: 10px;
-    color: teal;
+    color: rgb(48, 82, 96);
     text-align: center;
 }
 
-.contenedor-principal > div > h1{
-    color: yellowgreen;
-    /* margin-top: -2rem; */
-  }
+.conten1 {
+  margin-top: -9rem;
+  border-right:rgb(48, 82, 96) solid 2px
+
+}
+
+.conten2 {
+  margin-top: -9rem;
+  border-right:rgb(48, 82, 96) solid 2px
+
+}
+
+.conten3 {
+  margin-top: -9rem;
+
+}
+
+
 
 .contenedor-principal > div > p{
+    width: 90%;
     font-size: 15px;
     text-align: center;
     padding-top: 10%;
+    text-align: justify;
   }
 
 
@@ -40,6 +56,16 @@
       margin: 0 auto;
       padding: 40px 20px 50px 20px;
     }
+
+    .conten1 {
+      border-right: transparent;
+    
+    }
+    
+    .conten2 {
+      border-right: transparent;
+    
+    }
   
     .contenedor-principal > div > h1{
         font-size: 25px;
@@ -50,7 +76,7 @@
     .contenedor-principal > div > p{
       font-size: 15px;
       text-align: center;
-      padding-top: 0%;
+      padding-top: 10%;
     }
   
   }

@@ -3,6 +3,11 @@ import '../../styles/Footer.css';
 
 
 export const Footer = () => {
+
+    const getCurrentYear = () => {
+        return new Date().getFullYear();
+    };
+
     return (
         <footer className="manualFooter">
             <div className="manualFooter-info"> 
@@ -15,7 +20,9 @@ export const Footer = () => {
             </div>
             <div className="manualFooter-sns">
                 <div className="designBy">
-                    Design By Juan Espinosa
+                    <p>
+                        Copyright &copy; {getCurrentYear()} | All rights reserved | Icons by <a className="icon8" target="_blank" href="https://icons8.com">icons8.com</a>
+                    </p>
                 </div>
                 <div className="manualSns-links" >
                     <a href="https://github.com/Juan94e"

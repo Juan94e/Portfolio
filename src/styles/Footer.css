@@ -29,6 +29,15 @@
     margin: 0 auto;
   }
 
+.icon8 {
+  text-decoration: none;
+  color: white;
+}  
+
+.icon8:hover {
+  color: rgb(48, 82, 96);
+}  
+
 .manualFooter-sns {
     width: 70%;
     position: absolute;

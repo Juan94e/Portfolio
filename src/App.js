@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "../src/App.css"
-import { About } from './components/about/About';
+// import { About } from './components/about/About';
 import { AboutEdu } from './components/about/AboutEdu';
 import { Cover } from "./components/cover/Cover"
 import { Footer } from './components/footer/Footer';
