@@ -1,6 +1,6 @@
 .contenedor-principal {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-color: white;
     display: flex;
     align-items: center;
@@ -8,40 +8,95 @@
 }
 
 .contenedor-principal > div {
-    width: 30%;
+    width: 35%;
     height: 50%;
-    padding: 10px;
+    padding: 30px;
     color: rgb(48, 82, 96);
     text-align: center;
 }
 
+
 .conten1 {
-  margin-top: -9rem;
-  border-right:rgb(48, 82, 96) solid 2px
+  margin-top: -10rem;
+  /* border-right:rgb(48, 82, 96) solid 2px */
 
 }
 
+.clsVertical{
+  border-left: rgb(48, 82, 96) solid 2px;
+  height: 400px;
+}
+
 .conten2 {
-  margin-top: -9rem;
-  border-right:rgb(48, 82, 96) solid 2px
+  margin-top: -10rem;
+  /* border-right:rgb(48, 82, 96) solid 2px; */
 
 }
 
 .conten3 {
-  margin-top: -9rem;
+  margin-top: -10rem;
 
 }
 
-
+/* icons 1,5,9 */
 
 .contenedor-principal > div > p{
-    width: 90%;
-    font-size: 15px;
-    text-align: center;
-    padding-top: 10%;
+    width: 100%;
+    font-size: 17px;
     text-align: justify;
+    padding-top: 10%;
+    padding-bottom: 4%;
   }
 
+.contenedor-principal > div > p > span{
+  font-weight: 700;  
+}
+
+#edu-icons-container{
+ display: grid;
+ grid-template-columns: 33% 33% 33% ;
+}
+
+#lan-icons-container{
+  display: grid;
+  grid-template-columns: 33% 33% 33% ;
+ }
+
+.icon6 {
+  padding-top: 25%;
+}
+
+.icon7 {
+  padding-top: 24%;
+}
+
+.icon8 {
+  padding-top: 20%;
+}
+
+.icon9 {
+  padding-top: 0%;
+}
+
+.icon10 {
+  padding-top: 0%;
+}
+
+.icon11 {
+  padding-top: 0%;
+}
+
+.icon13 {
+  padding-top: 22%;
+}
+
+.icon14 {
+  padding-top: 19%;
+}
+
+.icon15 {
+  padding-top: 20%;
+}
 
 
 @media only screen and (max-width: 960px) {
@@ -54,29 +109,38 @@
     .contenedor-principal > div {
       width: 90%;
       margin: 0 auto;
-      padding: 40px 20px 50px 20px;
+      padding: 90px 20px 50px 20px; /* se ajusto el primer eje del padding de 40 a 90 para asi darle espacio en modo responsivo */
+
     }
 
-    .conten1 {
-      border-right: transparent;
-    
+    /* .contenedor-principal > div > img {
+      margin-left: -5px;
+
+    } */
+
+    /* .conten1 {
+      border-right: transparent;   
     }
     
     .conten2 {
       border-right: transparent;
     
+    } */
+
+    .clsVertical{
+      border-left: none;
+      height: 0px;
+      border-bottom: rgb(48, 82, 96) solid 2px;
+      width: 100px;
     }
   
-    .contenedor-principal > div > h1{
-        font-size: 25px;
-        text-align: center;
-        /* margin-top: 2rem; */ 
-      }
-
     .contenedor-principal > div > p{
       font-size: 15px;
-      text-align: center;
+      /* text-align: justify; */
+      /* padding: 30px; */
       padding-top: 10%;
+      padding-right: 30px;
+      
     }
   
   }
