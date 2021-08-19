@@ -23,9 +23,9 @@ export const AboutEdu = () => {
     return (
         <section id="about" className="contenedor-principal">
             <div className="conten1" >
-                <img className="icon1" src={grado} style={{width:"70px", height:"70px"}} /> 
+                <img className="icon1" src={grado} style={{width:"70px", height:"70px"}} title="Education" /> 
                 {/* <br/> */}
-                <p><span>Bachelor´s Degree in Electronic eduineering.</span> With an emphasis on embedded systems. University of San Buenaventura Cali. <a href="https://www.usbcali.edu.co/" >https://www.usbcali.edu.co</a>
+                <p><span>Bachelor´s Degree in Electronic Engineering.</span> With an emphasis on embedded systems. University of San Buenaventura Cali. <a href="https://www.usbcali.edu.co/" >https://www.usbcali.edu.co</a>
                 </p>
                 <div id="edu-icons-container">
                     <div>
@@ -68,7 +68,7 @@ export const AboutEdu = () => {
             </div>
             <di className="clsVertical"></di>
             <div className="conten2" >
-                <img id="icon5" src={devp} style={{width:"70px", height:"70px"}} />
+                <img id="icon5" src={devp} style={{width:"70px", height:"70px"}} title="Knowledge and Skills" />
                 <div id="edu-icons-container">
                     <div>
                         <div className="iconTagName">
@@ -113,23 +113,23 @@ export const AboutEdu = () => {
             </div>
             <di className="clsVertical"></di>
             <div className="conten3" >
-                <img id="icon12" src={languages} style={{width:"70px", height:"70px"}} />
+                <img id="icon12" src={languages} style={{width:"70px", height:"70px"}} title="Languages" />
                 <div id="lan-icons-container">
                     <div>
                         <div className="iconTagName7">
-                            <img className="icon13" src={spanish} style={{width:"70px"}} alt="C programming" />
+                            <img className="icon13" src={spanish} style={{width:"70px"}} alt="Spanish" title="Spanish" />
                             <p>100%</p>
                         </div>
                     </div>
                     <div>
                         <div className="iconTagName8">
-                            <img className="icon14" src={english} style={{width:"77px"}} alt="Automation" />
+                            <img className="icon14" src={english} style={{width:"77px"}} alt="English" title="English" />
                             <p>75%</p>
                         </div>
                     </div>
                     <div>
                         <div className="iconTagName9">
-                            <img className="icon15" src={french} style={{width:"74px"}} alt="Arduino" />
+                            <img className="icon15" src={french} style={{width:"74px"}} alt="French" title="French" />
                             <p>Learning</p>
                         </div>
                     </div>
