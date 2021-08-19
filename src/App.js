@@ -4,6 +4,7 @@ import { Loaded } from './components/loading-page/Loaded';
 import { Loading } from './components/loading-page/Loading';
 
 function App() {
+
         // Loading Status
     const [isLoading, setIsLoading] = useState(true);
 
@@ -13,8 +14,6 @@ function App() {
         }, 2000);    
     });
 
-
-
     return (
         <div className="App" >
             {isLoading==true?
@@ -22,10 +21,7 @@ function App() {
                 :
                 <Loaded />
             }
-                
-
-
-            
+               
         </div>
     );
 }

@@ -1,0 +1,14 @@
+.loading-container {
+    background-color: #305260;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .loading-container-child {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */
