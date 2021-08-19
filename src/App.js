@@ -1,35 +1,31 @@
 import React, { useEffect, useState } from 'react'
 import "../src/App.css"
-// import { About } from './components/about/About';
-import { AboutEdu } from './components/about/AboutEdu';
-import { Cover } from "./components/cover/Cover"
-import { Footer } from './components/footer/Footer';
-import { Info } from './components/info/Info';
-import { Navbar } from "./components/navbar/Navbar";
-import { Slider } from './components/slider/Slider';
+import { Loaded } from './components/loading-page/Loaded';
+import { Loading } from './components/loading-page/Loading';
 
 function App() {
-    const [scrollHeight, setScrollHeight] = useState(0);
+        // Loading Status
+    const [isLoading, setIsLoading] = useState(true);
 
-    const handleScroll = () => {
-        const position = window.pageYOffset;
-        setScrollHeight(position);
-    };
+    useEffect( () => {
+        setTimeout(()=> {
+            setIsLoading(false);
+        }, 2000);    
+    });
 
-    useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
-    }, [scrollHeight]);
 
 
     return (
         <div className="App" >
-            <Navbar isScrolling={scrollHeight} />
-            <Cover />
-            <AboutEdu />
-            {/* <About /> */}
-            <Slider />
-            <Info />
-            <Footer />
+            {isLoading==true?
+                <Loading />
+                :
+                <Loaded />
+            }
+                
+
+
+            
         </div>
     );
 }
