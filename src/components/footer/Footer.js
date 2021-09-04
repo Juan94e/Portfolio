@@ -4,9 +4,10 @@ import '../../styles/Footer.css';
 
 export const Footer = () => {
 
+        //Current year for "copyright"
     const getCurrentYear = () => {
         return new Date().getFullYear();
-    };
+    };   
 
     return (
         <footer className="manualFooter">

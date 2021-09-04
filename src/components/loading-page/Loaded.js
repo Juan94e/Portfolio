@@ -4,6 +4,7 @@ import { Cover } from '../cover/Cover'
 import { Footer } from '../footer/Footer'
 import { Info } from '../info/Info'
 import { Navbar } from '../navbar/Navbar'
+import { Projects } from '../slider/Projects'
 import { Slider } from '../slider/Slider'
 
 export const Loaded = () => {
@@ -20,13 +21,15 @@ export const Loaded = () => {
         window.addEventListener("scroll", handleScroll);
     }, [scrollHeight]);
 
+    
     return (
         <div>
                 <Navbar isScrolling={scrollHeight} />
                 <Cover />
                 <AboutEdu />
-                <Slider />
-                <Info />
+                <Projects />
+                {/* <Slider /> */}
+                {/* <Info /> */}
                 <Footer />
         </div>
     )

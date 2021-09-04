@@ -1,14 +1,17 @@
 
 .manualCarousel-container {
-    display: flex;
-    vertical-align: center;
-    align-items: center;
-    background-color: black;
-    padding: 30px 0 30px 0;
-  }
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  vertical-align: center;
+  align-items: center;
+  background-color: white;
+  padding: 30px 0 30px 0;
+  margin-bottom: 100vh;
+}
   
   .manualCarousel-title {
-    color: white;
+    color: black;
     width: 40%;
     text-align: center;
     font-size: 30px;

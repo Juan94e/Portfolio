@@ -8,11 +8,11 @@ export const Loading = () => {
         <div className="loading-container"> 
             <div className="loading-container-child" >
                 <Loader
-                    type="Circles"
+                    type="Puff"
                     color="white"
                     height={350}
                     width={350}
-                    timeout={2000} //3 secs
+                    timeout={2500} //3 secs
                 />
             </div>
         </div>
