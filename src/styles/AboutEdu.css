@@ -135,12 +135,16 @@
     }
   
     .contenedor-principal > div > p{
-      font-size: 15px;
+      font-size: 16px;
       /* text-align: justify; */
       /* padding: 30px; */
       padding-top: 10%;
-      padding-right: 30px;
+      /* padding-right: 30px; */
       
+    }
+
+    .manualText-size {
+      font-size: 13px;
     }
   
   }

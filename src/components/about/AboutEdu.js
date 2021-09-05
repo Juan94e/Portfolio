@@ -31,19 +31,19 @@ export const AboutEdu = () => {
                     <div>
                         <div className="iconTagName">
                                 <img className="icon2" src={embedded} style={{width:"70px"}} alt="C programming" />
-                                <p>EMBBEDED SYSTEMS</p>
+                                <p className="manualText-size">EMBBEDED SYSTEMS</p>
                         </div>
                     </div>
                     <div>
                         <div className="iconTagName">
                                 <img className="icon3" src={networking } style={{width:"70px"}} alt="Automation" />
-                                <p>COMPUTER NETWORKING</p>
+                                <p className="manualText-size">COMPUTER NETWORKING</p>
                         </div>
                     </div>
                     <div>
                         <div className="iconTagName">
                             <img className="icon4" src={automation} style={{width:"90px"}} alt="Arduino" />
-                            <p>AUTOMATION</p>
+                            <p className="manualText-size">AUTOMATION</p>
                         </div>
                     </div>
                     {/* <div>
