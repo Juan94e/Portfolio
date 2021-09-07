@@ -48,9 +48,9 @@ export const Navbar = ({isScrolling}) => {
                         <li className="nav-item">
                             <a className="nav-link text-white" href="#projects">Projects</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link text-white" href="#">contact</a>
-                        </li>
+                        </li> */}
                     </ul>
 
                 </div>
