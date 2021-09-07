@@ -109,13 +109,23 @@
 	transform: rotateY(0deg);
 }
 /* modificar esto por los padding cruzados */
-#edu-icons-container2{
+#projects-icons-container{
   display: grid;
   grid-template-columns: 33% 33% 33%;
   padding-left: 18px;
-  padding-top: 35px;
-  padding-bottom: 60px;
+  /* margin-top: -10px; */
+  padding-bottom: 125px;
  }
+ /* ********** los dos de abajo "react" son para acomadar la tarjeta portfolio */
+.react-icon-container {
+  margin-bottom: -80px;
+}
+
+.react-icon {
+  padding-top: 20px;
+  /* margin-bottom: -90px; */
+  /* margin-top: -50px; */
+}
 
 .btn-container{
   display: flex;
@@ -142,7 +152,7 @@
 }
 
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1025px) {
   
   .projects-body {
     height: 100%;
