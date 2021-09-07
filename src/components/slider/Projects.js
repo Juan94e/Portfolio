@@ -96,7 +96,7 @@ export const Projects = () => {
                             </div>
                         </div>
                         <div className="btn-container" >
-                            <a href="" className="manualBtn"> Github </a>
+                            <a href="https://github.com/Juan94e/Portfolio" target="_blank" className="manualBtn"> Github </a>
                             <a href="" className="manualBtn"> Live Site </a>
                         </div>
                     </div>
