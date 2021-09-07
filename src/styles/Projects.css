@@ -17,6 +17,7 @@
   /* color: white; */
   text-align: center;
   padding-top: 70px;
+  padding-bottom: 4%;
   /* font-family: 'Great Vibes', cursive; */
   /* align-self: flex-start; */
   /* align-content: center; */
@@ -40,7 +41,7 @@
 
 
 .manualContainer{
-  padding-top: 4%;
+  /* padding-top: 4%; */
 	position: relative;
 	width: 300px;
 	height: 400px;
@@ -189,5 +190,9 @@
   
   .manualSlide-container {
     width: 100%;
+  }
+
+  #projects-icons-container {
+    padding-bottom: 97px;
   }
 }

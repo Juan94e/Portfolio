@@ -22,7 +22,7 @@ export const Footer = () => {
             <div className="manualFooter-sns">
                 <div className="designBy">
                     <p>
-                        Copyright &copy; {getCurrentYear()} | All rights reserved | Icons by <a className="icon8" target="_blank" href="https://icons8.com">icons8.com</a>
+                        Copyright &copy; {getCurrentYear()} | All rights reserved | Icons by <a className="icons8" target="_blank" href="https://icons8.com">icons8.com</a>
                     </p>
                 </div>
                 <div className="manualSns-links" >

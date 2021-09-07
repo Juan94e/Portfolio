@@ -31,12 +31,13 @@
     margin: 0 auto;
   }
 
-.icon8 {
+.icons8 {
   text-decoration: none;
   color: white;
+  padding-top: 0%;
 }  
 
-.icon8:hover {
+.icons8:hover {
   color: rgb(24, 145, 173);
 }  
 
@@ -53,9 +54,10 @@
   }
   
 .manualSns-links {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
  }
 
 .linkedin,
@@ -65,13 +67,14 @@
   font-size: 35px;
   margin: 0 auto;
   padding-bottom: 10px;
-  border-bottom: 4px solid transparent;
+  /* border-bottom: 4px solid transparent; */
 } 
 
 .linkedin:hover,
 .github:hover,
 .facebook:hover {
-  border-color: white;
+  color: rgb(24, 145, 173);
+  border-color: rgb(24, 145, 173);;
   transition: all 0.3s ease-out;
 }
 
