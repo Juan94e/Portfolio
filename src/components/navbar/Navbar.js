@@ -25,13 +25,13 @@ export const Navbar = ({isScrolling}) => {
 
                 <a href="#home" className="navbar-brand" >Juan Espinosa</a>
                 <button
-                type="button"
-                className="navbar-toggler"
-                data-bs-target="#navbarNav"
-                data-bs-toggle="collapse"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
+                    type="button"
+                    className="navbar-toggler"
+                    data-bs-target="#navbarNav"
+                    data-bs-toggle="collapse"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
                 >
                     <span className="navbar-toggler-icon"></span>
                 </button>
