@@ -4,6 +4,7 @@ import '../../styles/Projects.css';
 import licor from '../../assets/images/Capture.PNG';
 import flutterApp from '../../assets/images/lasTres1.jpg';
 import portfolio from '../../assets/images/portfolio.PNG';
+import gifapp from '../../assets/images/gifapp.PNG';
 // ********** Icons Import **********
 import html from '../../assets/Icons/html.png';
 import css from '../../assets/Icons/css.png';
@@ -63,12 +64,13 @@ export const Projects = () => {
 
                 <div className="manualContainer">
                     <div className="manualCard manualFront">
-                        <img className="card-image" src={portfolio} />
+                        <img className="card-image" src={gifapp} />
                         <h1>
-                            Portfolio
+                            Gif App
                         </h1>
                         <p>
-                            This is my own Website, here you can find info about me,  such as my education, knowledge, skills, languages and more. Get in touch...
+                            This application was made with an API to get the gifs, it also has light and dark mode
+                            {/* This is my own Website, here you can find info about me,  such as my education, knowledge, skills, languages and more. Get in touch... */}
                         </p>
                     </div>
                     <div className="manualCard manualBack">
@@ -96,8 +98,8 @@ export const Projects = () => {
                             </div>
                         </div>
                         <div className="btn-container" >
-                            <a href="https://github.com/Juan94e/Portfolio" target="_blank" className="manualBtn"> Github </a>
-                            <a href="" className="manualBtn"> Live Site </a>
+                            <a href="https://github.com/Juan94e/Gif-App" target="_blank" className="manualBtn"> Github </a>
+                            <a href="https://find-ur-gif.firebaseapp.com/" target="_blank" className="manualBtn"> Live Site </a>
                         </div>
                     </div>
                 </div>
