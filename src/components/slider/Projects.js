@@ -31,7 +31,7 @@ export const Projects = () => {
                             Liquor Store
                         </h1>
                         <p>
-                            This Website contains a liquor store, you can see all liquors like
+                            This ssWebsite contains a liquor store, you can see all liquors like
                             wine, whisky, champagne, tequila and more. Actually not finished yet. working on
                             Backend, DataBase and an Ecommerce.
                         </p>
