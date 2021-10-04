@@ -1,20 +1,28 @@
-import React, { Suspense } from 'react'
+import React, { useEffect, useState } from 'react'
 import "../src/App.css"
-// import { Loaded } from './components/loading-page/Loaded';
-
-const Loaded = React.lazy( () => import ( './components/loading-page/Loaded' ) )
+import  Loaded  from './components/loading-page/Loaded';
+import { Loading } from './components/loading-page/Loading';
 
 function App() {
 
+        // Loading Status
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect( () => {
+        setTimeout(()=> {
+            setIsLoading(false);
+        }, 2500);    
+    });
+
     return (
         <div className="App" >
-            <Suspense fallback={<div>Loading...</div>} >
+            {isLoading==true?
+                <Loading />
+                :
                 <Loaded />
-            </Suspense>
+            }
         </div>
     );
 }
 
 export default App;
-
-
