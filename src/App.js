@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import "../src/App.css"
 import  Loaded  from './components/loading-page/Loaded';
 import { Loading } from './components/loading-page/Loading';
+import { browserName, browserVersion } from "react-device-detect";
+
 
 function App() {
 
@@ -13,6 +15,16 @@ function App() {
             setIsLoading(false);
         }, 2500);    
     });
+
+    // console.log(`${browserName} ${browserVersion}`);
+
+    
+    {browserName==="Safari"?
+        alert("Safari is not compatible with this website, please use Google Chrome or  Firefox ")
+        :
+        console.log("Welcome")
+    }
+
 
     return (
         <div className="App" >
