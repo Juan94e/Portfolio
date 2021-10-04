@@ -7,7 +7,7 @@ import { Navbar } from '../navbar/Navbar'
 import { Projects } from '../slider/Projects'
 import { Slider } from '../slider/Slider'
 
-export const Loaded = () => {
+const Loaded = () => {
 
         // Screen State
     const [scrollHeight, setScrollHeight] = useState(0);
@@ -34,3 +34,5 @@ export const Loaded = () => {
         </div>
     )
 }
+
+export default Loaded;
