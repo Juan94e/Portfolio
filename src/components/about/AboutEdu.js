@@ -66,7 +66,7 @@ export const AboutEdu = () => {
                     </div> */}
                 </div>
             </div>
-            <div className="clsVertical"></div>
+            <di className="clsVertical"></di>
             <div className="conten2" >
                 <img id="icon5" src={devp} style={{width:"70px", height:"70px"}} title="Knowledge and Skills" />
                 <div id="edu-icons-container">
