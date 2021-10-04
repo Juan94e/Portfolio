@@ -4,7 +4,7 @@ import '../../styles/Projects.css';
 import licor from '../../assets/images/Capture.PNG';
 import flutterApp from '../../assets/images/lasTres1.jpg';
 import portfolio from '../../assets/images/portfolio.PNG';
-import gifapp from '../../assets/images/gifapp.PNG';
+import gifapp from '../../assets/images/gifappdark.PNG';
 // ********** Icons Import **********
 import html from '../../assets/Icons/html.png';
 import css from '../../assets/Icons/css.png';
