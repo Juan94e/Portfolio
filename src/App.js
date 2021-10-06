@@ -16,7 +16,7 @@ function App() {
         }, 2500);    
     });
 
-    // console.log(`${browserName} ${browserVersion}`);
+    console.log(`${browserName} ${browserVersion}`);
 
     
     {browserName==="Safari"?
