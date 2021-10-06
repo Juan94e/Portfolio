@@ -16,14 +16,7 @@ function App() {
         }, 2500);    
     });
 
-    console.log(`${browserName} ${browserVersion}`);
-
-    
-    // {browserName==="Safari"?
-    //     alert("Safari is not compatible with this website, please use Google Chrome or  Firefox ")
-    //     :
-    //     console.log("Welcome")
-    // }
+    // console.log(`${browserName} ${browserVersion}`);
 
     if ( browserName==="Safari" || browserName==="Mobile Safari" ){
         alert("Safari is not compatible with this website, please use Google Chrome or  Firefox ")
