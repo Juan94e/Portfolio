@@ -4,8 +4,8 @@ import { Cover } from '../cover/Cover'
 import { Footer } from '../footer/Footer'
 import { Info } from '../info/Info'
 import { Navbar } from '../navbar/Navbar'
-import { Projects } from '../slider/Projects'
-import { Slider } from '../slider/Slider'
+import { Projects } from '../projects/Projects'
+import { Slider } from '../projects/Slider'
 
 const Loaded = () => {
 

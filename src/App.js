@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "../src/App.css"
 import  Loaded  from './components/loading-page/Loaded';
 import { Loading } from './components/loading-page/Loading';
-import { browserName, browserVersion } from "react-device-detect";
+import { browserName } from "react-device-detect";
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         }, 2500);    
     });
 
-    // console.log(`${browserName} ${browserVersion}`);
+    // console.log(`${browserName}`);
 
     if ( browserName==="Safari" || browserName==="Mobile Safari" ){
         alert("Safari is not compatible with this website, please use Google Chrome or  Firefox ")
