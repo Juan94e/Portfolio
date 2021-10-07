@@ -3,7 +3,7 @@ import '../../styles/Projects.css';
 // ********** Images Import **********
 import licor from '../../assets/images/Capture.PNG';
 import flutterApp from '../../assets/images/lasTres1.jpg';
-import portfolio from '../../assets/images/portfolio.PNG';
+// import portfolio from '../../assets/images/portfolio.PNG';
 import gifapp from '../../assets/images/gifappdark.PNG';
 // ********** Icons Import **********
 import html from '../../assets/Icons/html.png';
@@ -26,7 +26,7 @@ export const Projects = () => {
 
                 <div className="manualContainer">
                     <div className="manualCard manualFront">
-                        <img className="card-image" src={licor} />
+                        <img className="card-image" src={licor} alt="liquor store" />
                         <h1>
                             Liquor Store
                         </h1>
